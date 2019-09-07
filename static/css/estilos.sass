@@ -1,2 +1,40 @@
-body
+.fondo
+    background-image: url('../img/fondo.jpg')
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+.overly
+    top: 0
+    bottom: 0
+    right: 0
+    left: 0
+    background: rgba(0, 0, 0, .60)  
+.contact
+    position: relative
+    top: 0
+    width: 100%
+.contenedorLogo
     background: red
+    width: 150px
+    height: 50px
+.homeText
+    position: relative
+    color: white
+    h1
+        font-size: 1.8rem
+    p
+        font-size: 1.6rem
+    ul
+        font-size: 1.2rem
+@media (min-width: 768px)
+    .homeText
+        top: 10px
+        h1
+            font-size: 2.5rem
+        p
+            font-size: 2rem
+        ul
+            font-size: 1.8rem
+@media (min-width: 992px)
+    .homeText
+        top: 80px
