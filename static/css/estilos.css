@@ -63,10 +63,4 @@
     font-size: 1.8rem;
   }
 }
-
-@media (min-width: 992px) {
-  .homeText {
-    top: 50px;
-  }
-}
 /*# sourceMappingURL=estilos.css.map */
