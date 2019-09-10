@@ -1,5 +1,5 @@
 .fondo {
-  background-image: url("../img/fondo2.jpg");
+  background-image: url("../img/fondo5.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,6 +41,14 @@
   font-size: 1.5rem;
 }
 
+.letra2 {
+  font-size: 1.1rem;
+}
+
+.titulo {
+  font-size: 1.3rem;
+}
+
 @media (min-width: 768px) {
   .homeText {
     top: -10px;
@@ -58,7 +66,7 @@
 
 @media (min-width: 992px) {
   .homeText {
-    top: 70px;
+    top: 50px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
