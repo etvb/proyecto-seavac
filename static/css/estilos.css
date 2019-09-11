@@ -11,9 +11,13 @@
   width: 100%;
 }
 
+.chico {
+  font-size: .6rem;
+}
+
 .contenedorLogo {
-  width: 275px;
-  height: 150px;
+  width: 240px;
+  height: 140px;
 }
 
 .contenedorLogo img {
