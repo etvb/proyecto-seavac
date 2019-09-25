@@ -29,7 +29,7 @@
         </aside>
 
 
-
+<!-- Barra de navegacion en mobil -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light d-lg-none">
 
                 <div class="contenedorLogo navbar-brand mb-2">
@@ -46,7 +46,8 @@
                       <a class="nav-link" href="#servicios">SERVICIOS <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#personal">PERSONAL</a>
+                            <button type="button" class="btn nav-link" data-toggle="modal" data-target="#exampleModalScrollable">PERSONAL</button>
+                      <!-- <a class="nav-link" href="#personal">PERSONAL</a> -->
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#metodologia">METODOLOGÍA</a>
@@ -61,19 +62,57 @@
                   </ul>
                 </div>
               </nav>
+<!-- Fin Barra de navegacion den mobil -->
 
+<!-- Barra de naveagacion amplia -->
         <div class="navbar barra container-fluid justify-content-around mt-2">
             <div class="contenedorLogo mt-1 d-none  d-lg-flex">
                 <img src="./static/img/ORI-04-2.png" alt="">
             </div>
             <nav class="nav menuSize h6 mx-3 d-none d-lg-flex">
                 <a href="#servicios" class="nav-link text-white">SERVICIOS</a>
-                <a href="#personal" class="nav-link text-white">PERSONAL</a>
+                <button type="button" class="btn btn-link text-white" data-toggle="modal" data-target="#exampleModalScrollable">PERSONAL</button>
+                <!-- <a href="#personal" class="nav-link text-white">PERSONAL</a> -->
                 <a href="#metodologia" class="nav-link text-white">METODOLÓGIA</a>
                 <a href="#garantia" class="nav-link text-white">GARANTÍA</a>
                 <a href="#contacto" class="nav-link text-white">CONTACTO</a>
             </nav>
         </div>
+<!--Fin Barra de naveagacion amplia -->
+
+
+<!-- Modal PERSONALA -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalScrollableTitle">PERSONAL ACADÉMICO</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Nuestro equipo de profesores tiene la misión de regularizar académicamente al estudiante
+                para que consiga
+                acreditar asignaturas que está cursando o que ha reprobado, o bien, de prepararlo académicamente para
+                que logre
+                ingresar a la institución de su interés; por lo tanto, además
+                de ser
+                personal titulado, cuenta con amplia experiencia frente a grupo y está debidamente acreditado en los
+                aspectos
+                académico y pedagógico.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Fin Modal-PERSONAL -->
+
+
 
         <div class="container homeText align-self-center% ">
             <h1 class="text-center">SERVICIOS PARA EL AVANCE ACADÉMICO</h1>
