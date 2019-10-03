@@ -74,6 +74,10 @@
   line-height: 1.3rem;
 }
 
+.normal {
+  font-style: normal;
+}
+
 @media (min-width: 768px) {
   .homeText h1 {
     font-size: 2.5rem;
